@@ -1,0 +1,36 @@
+# Python
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*$py.class
+
+# 编辑器
+.idea/
+.vscode/
+*.suo
+*.user
+
+# Docker & 环境变量
+docker-compose.yml
+.env
+.env.*
+.DS_Store
+
+# 数据库
+*.sqlite3
+*.db
+alembic/versions/*.pyc
+docker-compose.override.yml
+
+# Node 
+node_modules/
+dist/
+
+# 日志
+*.log
+
+# 设计文件
+数据库ER.md
